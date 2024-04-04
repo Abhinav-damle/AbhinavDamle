@@ -73,13 +73,13 @@ a:hover{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 24px;
-    width: 30px;
+    height: 24%;
+    width: 30%;
     cursor: pointer;
 }
 .hamburger-icon span{
     width: 100%;
-    height: 2px;
+    height: 2%;
     background-color: white;
     transition: all 0.3 ease-in-out;
 }
@@ -95,7 +95,7 @@ a:hover{
 }
 .menu-links a{
     display: block;
-    padding: 10px;
+    padding: 10%;
     text-align: center;
     font-size: 1.4rem;
     color:black;
@@ -106,7 +106,7 @@ a:hover{
     list-style: none;
 }
 .menu-links.open{
-    max-height: 300px;
+    max-height: 300%;
 }
 .hamburger-icon.open span:first-child{
     transform: rotate(45deg) translate(10px,5px);
@@ -144,8 +144,8 @@ section{
     height: 80vh;
 }
 .blink {
-    height: 45px;
-    font-size: 25px;
+    height: 45%;
+    font-size: 25%;
     animation: blink 0.5s infinite;
   }
   @keyframes blink{
@@ -153,8 +153,8 @@ section{
   }
 .section_pic-container{
     display: flex;
-    height: 400px;
-    width: 400px;
+    height: 400%;
+    width: 400%;
     margin: auto 0;
 }
 .section_text{
@@ -166,7 +166,7 @@ section{
 }
 .section__text__p1{
     text-align: center;
-    font-size: 30px;
+    font-size: 200%;
 }
 .section__text__p2{
     font-size: 1.75rem;
@@ -183,7 +183,7 @@ section{
     height: 2rem;
 }
 #socials-container{
-    margin:15px;
+    margin:15%;
 }
 .btn-container{
     display: flex;
@@ -201,10 +201,10 @@ section{
   color: #FFF;
   border: 2px solid #c3073f;
   border-radius: 20px;
-  padding:10px 5px;
+  padding:10px 5%;
   display: inline-block;
-  width: 200px;
-  margin: 2%;
+  width: 200%;
+  margin: 2px;
   
   cursor: pointer;
   box-shadow: inset 0 0 0 0 #c3073f;
@@ -215,7 +215,7 @@ section{
 
 
 .slide_right:hover {
-  box-shadow: inset 400px 0 0 -70px #c3073f;
+  box-shadow: inset 400% 0 0 -70% #c3073f;
 }
 
 
@@ -286,7 +286,7 @@ section{
   .profile_pic{
     border: #c3073f 10px solid;
     border-radius: 25px;
-    padding: 15px;
+    padding: 1%;
     box-shadow:0px 0px 20px 0px #c3073f; 
   }
   .arrow {
@@ -317,8 +317,8 @@ section{
   }
   
   .section_pic-container {
-    height: 400px;
-    width: 400px;
+    height: 80%;
+    width: 40%;
     margin: auto 0;
   }
 
@@ -396,8 +396,8 @@ section{
     margin-bottom: 1px;
 }
 .project-img1,.project-img2 ,.project-img{
-    height:400px;
-    width: 300px;
+    height:400%;
+    width: 80%;
     border-radius: 30px;
 }
 #projects a{
