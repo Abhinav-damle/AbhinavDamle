@@ -18,7 +18,7 @@ html {
 }
 
 p {
-  color: rgb(255, 0, 0);
+  color: rgb(195,7,63);
 }
 
 /* TRANSITION */
@@ -48,7 +48,7 @@ nav {
 }
 
 a {
-  color: rgb(239, 7, 7);
+  color: rgb(195,7,63);
   text-decoration: none;
   text-decoration-color: rgb(255, 255, 255);
 }
@@ -215,7 +215,7 @@ section {
 .icon {
   cursor: pointer;
   height: 2rem;
-  color: rgb(239, 7, 7);
+  color: rgb(195,7,63);
 }
 
 /* BUTTONS */
@@ -247,7 +247,7 @@ section {
 }
 .btn-color-1,
 .btn-color-2 {
-  border: rgb(255, 0, 0) 0.1rem solid;
+  border: rgb(195,7,63) 0.1rem solid;
 }
 
 .btn-color-1:hover,
@@ -263,7 +263,7 @@ section {
 
 .btn-color-1:hover {
   transform: translateY();
-  background: rgb(255, 0, 0);
+  background: rgb(195,7,63);
 }
 
 .btn-color-2 {
@@ -274,7 +274,7 @@ section {
 .btn-color-2:hover {
   
   transform: translateY();
-  background: rgb(255, 0, 0);
+  background: rgb(195,7,63);
 }
 
 .btn-container {
@@ -283,7 +283,7 @@ section {
 
 /* ABOUT SECTION */
 .section__pic-container{
-  border-color: rgb(253, 0, 0);
+  border-color: rgb(195,7,63);
 }
 #about {
   position: relative;
@@ -323,10 +323,10 @@ section {
 .details-container {
   padding: 1.5rem;
   flex: 1;
-  background: rgb(255, 0, 0);
+  background: rgb(195,7,63);
   border-radius: 2rem;
   border: rgb(255, 255, 255) 0.1rem solid;
-  border-color: rgb(253, 0, 0);
+  border-color: rgb(195,7,63);
   text-align: center;
 }
 .about-containers p{
@@ -366,6 +366,7 @@ section {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  margin-bottom: 20px;
 }
 
 .article-container {
@@ -392,11 +393,14 @@ article .icon {
 
 #projects {
   position: relative;
+  margin-bottom: 3%;
+ 
 }
 
 .color-container {
-  border-color: rgb(255, 0, 0);
-  background: rgb(255, 0, 0);
+  border-color: rgb(195,7,63);
+  background: rgb(195,7,63);
+ 
 }
 
 .project-img {
@@ -450,12 +454,12 @@ article .icon {
 
 .contact-icon {
   cursor: default;
-  color: rgb(239, 7, 7);
+  color: rgb(195,7,63);
 }
 
 .email-icon {
   height: 2.5rem;
-  color: rgb(239, 7, 7);
+  color: rgb(195,7,63);
 }
 
 /* FOOTER SECTION */
