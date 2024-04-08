@@ -339,6 +339,7 @@ section {
 .text-container p{
   color: white;
   margin-bottom: 2rem;
+  text-align: justify;
 }
 .section-container {
   gap: 4rem;
@@ -375,7 +376,7 @@ section {
 
 .article-container {
   display: flex;
-  text-align: initial;
+  text-align: justify;
   flex-wrap: wrap;
   flex-direction: row;
   gap: 2.5rem;
