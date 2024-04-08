@@ -42,9 +42,9 @@ nav {
 }
 
 .nav-links {
-  gap: 2rem;
+  gap: 10%;
   list-style: none;
-  font-size: 1.5rem;
+  font-size: 150%;
 }
 
 a {
@@ -56,12 +56,12 @@ a {
 a:hover {
   color: rgb(255, 255, 255);
   text-decoration: underline;
-  text-underline-offset: 1rem;
+  text-underline-offset: 1%;
   text-decoration-color: rgb(147, 147, 147);
 }
 
 .logo {
-  font-size: 2rem;
+  font-size: 200%;
 }
 
 .logo:hover {
@@ -111,7 +111,7 @@ a:hover {
   display: block;
   padding: 10px;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 100%;
   color: rgb(0, 0, 0);
   text-decoration: none;
   transition: all 0.3 ease-in-out;
@@ -154,7 +154,7 @@ a:hover {
 section {
   padding-top: 4vh;
   height: 96vh;
-  margin: 0 10rem;
+  margin: 0 10%;
   box-sizing: border-box;
   min-height: fit-content;
 }
@@ -168,7 +168,7 @@ section {
 #profile {
   display: flex;
   justify-content: center;
-  gap: 5rem;
+  gap: 5%;
   height: 80vh;
 }
 
@@ -483,4 +483,42 @@ footer {
 
 footer p {
   text-align: center;
+}
+
+@media (max-width: 1400px) {
+  
+
+  .about-containers {
+    gap: 2rem;
+    margin-bottom: 0.01%;
+    margin-top: 1rem;
+  }
+  .experience-details-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 1%;
+    margin-top: 1px;
+  }
+}
+@media (max-width: 1200px) {
+  
+  .details-container {
+    padding: 0.5rem;
+    flex: 1;
+    background: rgb(195,7,63);
+    border-radius: 2rem;
+    border: rgb(255, 255, 255) 0.1rem solid;
+    border-color: rgb(195,7,63);
+    text-align: center;
+
+  }
+  .section__pic-container {
+    display: flex;
+    height: 41px;
+    width: 41px;
+    
+  }
+  
+  
 }
