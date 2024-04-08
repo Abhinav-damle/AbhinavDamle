@@ -191,6 +191,7 @@ section {
 .section__text__p1 {
   text-align: center;
   font-size: 1.75rem;
+  
 
 }
 
@@ -202,6 +203,8 @@ section {
 .title {
   font-size: 3rem;
   text-align: center;
+  margin-bottom: 4rem;
+  
 }
 
 #socials-container {
@@ -291,7 +294,7 @@ section {
 }
 
 .about-containers {
-  gap: 2rem;
+  gap: 7rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
 }
@@ -371,6 +374,7 @@ section {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  margin-bottom: 10rem;
   
 }
 
@@ -407,6 +411,7 @@ article .icon {
 .color-container {
   border-color: rgb(195,7,63);
   background: rgb(195,7,63);
+  margin-bottom: 3rem;
  
 }
 
